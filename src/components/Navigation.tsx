@@ -89,6 +89,9 @@ const Navigation = () => {
               <a href="#knowledge" className="text-teal-600 hover:text-teal-700 transition-colors duration-300">
                 Knowledge corner
               </a>
+              <Link to="/privacy-policy" className="text-teal-600 hover:text-teal-700 transition-colors duration-300">
+                Privacy Policy
+              </Link>
             </div>
           </div>
 
@@ -134,6 +137,9 @@ const Navigation = () => {
             <a href="#knowledge" className="text-teal-600 hover:text-teal-700 transition-colors duration-300">
               Knowledge corner
             </a>
+            <Link to="/privacy-policy" className="text-teal-600 hover:text-teal-700 transition-colors duration-300">
+              Privacy Policy
+            </Link>
           </div>
         </div>
       </div>

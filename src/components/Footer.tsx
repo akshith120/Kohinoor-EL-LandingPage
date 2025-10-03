@@ -39,6 +39,9 @@ const Footer = () => {
               <Link to="#" className="block text-teal-600 hover:text-teal-700 transition-colors">
                 Knowledge corner
               </Link>
+              <Link to="/privacy-policy" className="block text-teal-600 hover:text-teal-700 transition-colors">
+                Privacy Policy
+              </Link>
             </div>
           </div>
         </div>
