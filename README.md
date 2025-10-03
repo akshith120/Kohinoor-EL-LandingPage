@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# Kohinoor Elite Living Landing Page
 
 ## Project info
 
