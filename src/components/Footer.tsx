@@ -10,6 +10,14 @@ const Footer = () => {
           {/* Follow us */}
           <div>
             <h3 className="text-xl text-gray-700 font-medium mb-6">Follow us</h3>
+          <div className="max-w-7xl mx-auto px-6 mt-10">
+            <div className="border-t pt-6">
+              <p className="text-sm text-gray-500 text-center">
+                © {new Date().getFullYear()} Kohinoor Elite Living. Legal name: <span className="font-medium text-gray-700">Shri Lakshmi Kohinoor Enterprises Private Limited</span>.
+              </p>
+            </div>
+          </div>
+
             <div className="flex gap-4">
               <div className="w-10 h-10 bg-gray-600 rounded flex items-center justify-center text-white hover:bg-gray-700 transition-colors cursor-pointer">
                 📷
