@@ -9,6 +9,9 @@ import Onboard from "./pages/Onboard";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from './components/ScrollToTop.jsx';
+import TermsAndConditions from "./pages/TermsandCondition.js";
+import RefundPolicy from "./pages/RefundCancellation.js";
+import ShippingPolicy from "./pages/ShippingPolicy.js";
 
 const queryClient = new QueryClient();
 
@@ -23,6 +26,9 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/onboard" element={<Onboard />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms" element={<TermsAndConditions />} />
+          <Route path="/refund" element={<RefundPolicy />} />
+          <Route path="/shipping" element={<ShippingPolicy />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

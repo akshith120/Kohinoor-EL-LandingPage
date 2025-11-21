@@ -1,21 +1,38 @@
-
 import React from 'react';
+import { Button } from './ui/button';
 import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen bg-gradient-to-b from-gray-50 to-white pt-32 pb-16">
-      <div className="max-w-7xl mx-auto px-6 text-center">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="text-6xl font-light text-gray-700 mb-16 leading-tight">
-            Building a <span className="italic font-normal">healthy</span> lifestyle in gated communities!
-          </h1>
-          
-          {/* Video Play Button */}
-          <div className="relative inline-block mb-16">
-            <div className="w-32 h-32 bg-teal-400/70 rounded-full flex items-center justify-center cursor-pointer hover:bg-teal-400/80 transition-colors group">
-              <div className="w-0 h-0 border-l-[20px] border-l-white border-t-[12px] border-t-transparent border-b-[12px] border-b-transparent ml-1 group-hover:scale-110 transition-transform"></div>
-            </div>
+    <section className="bg-[#e6f7f5] min-h-[120vh] flex items-center">
+      <div className="container mx-auto px-4 py-16 md:py-32">
+        <div className="max-w-4xl mx-auto text-center">
+          <div className="space-y-4 md:space-y-6 mb-8">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.3] text-gray-800">
+              <div className="mb-2 md:mb-3">Building a</div>
+              <div className="text-teal-500 italic mb-2 md:mb-3">healthy lifestyle</div>
+              <div>in gated communities!</div>
+            </h1>
+          </div>
+          <p className="text-lg md:text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
+            We deliver premium dry fruits, farm-fresh produce, and personalized nutrition plans directly to your doorstep in Hyderabad.
+          </p>
+          <div className="flex flex-col sm:flex-row justify-center gap-4">
+            <Button 
+              asChild 
+              size="lg" 
+              className="bg-teal-600 hover:bg-teal-700 text-white text-lg px-8 py-6 rounded-full transition-colors duration-200 shadow-lg"
+            >
+              <Link to="/signup">Get Your Starter Kit</Link>
+            </Button>
+            <Button 
+              asChild 
+              size="lg" 
+              variant="outline" 
+              className="border-teal-600 text-teal-600 hover:bg-teal-50 text-lg px-8 py-6 rounded-full transition-colors duration-200"
+            >
+              <Link to="/about">Learn More</Link>
+            </Button>
           </div>
         </div>
       </div>
