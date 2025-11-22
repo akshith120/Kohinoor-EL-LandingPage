@@ -75,8 +75,8 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center gap-3">
                   <Mail className="w-5 h-5 text-teal-400" />
-                  <a href="mailto:support@kohinoorelitelliving.com" className="hover:text-teal-400 transition-colors">
-                    support@kohinoorelitelliving.com
+                  <a href="mailto:service@kohinoorelite.com" className="hover:text-teal-400 transition-colors">
+                    service@kohinoorelite.com
                   </a>
                 </div>
               </div>

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button } from './ui/button';
-import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
@@ -23,7 +22,7 @@ const HeroSection = () => {
               size="lg" 
               className="bg-teal-600 hover:bg-teal-700 text-white text-lg px-8 py-6 rounded-full transition-colors duration-200 shadow-lg"
             >
-              <Link to="/signup">Get Your Starter Kit</Link>
+               <a href="#shopProducts"> Get Your Starter Kit</a>
             </Button>
             <Button 
               asChild 
@@ -31,7 +30,7 @@ const HeroSection = () => {
               variant="outline" 
               className="border-teal-600 text-teal-600 hover:bg-teal-50 text-lg px-8 py-6 rounded-full transition-colors duration-200"
             >
-              <Link to="/about">Learn More</Link>
+              <a href="#services">Learn More</a>
             </Button>
           </div>
         </div>
