@@ -6,17 +6,17 @@ const ServicesSection = () => {
     {
       title: "Identify",
       description: "We diagnose and understand every family member and design a custom diet for each of your family members",
-      image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=400&h=300&fit=crop"
+      image: "/identify.JPG"
     },
     {
       title: "Optimise",
       description: "Our world class nutritionists discuss, customise and plan a diet for you within the walls of your gated society",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=300&fit=crop"
+      image: "/optimise.JPG"
     },
     {
       title: "Deliver",
       description: "We deliver the premium quality fruits and nuts needed for your family at the doorstep of your house",
-      image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=400&h=300&fit=crop"
+      image: "/deliver.JPG"
     }
   ];
 
