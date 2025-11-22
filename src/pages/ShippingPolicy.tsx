@@ -87,8 +87,8 @@ const ShippingPolicy = () => {
               <div className="space-y-3 text-gray-700 font-medium">
                 <p>
                   <strong>Email:</strong>{" "}
-                  <a href="mailto:support@kohinooreliteliving.com" className="text-[#2a4d69] underline">
-                    support@kohinooreliteliving.com
+                  <a href="mailto:service@kohinoorelite.com" className="text-[#2a4d69] underline">
+                    service@kohinoorelite.com
                   </a>
                 </p>
                 <p>

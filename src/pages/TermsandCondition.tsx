@@ -81,8 +81,8 @@ const TermsAndConditions = () => {
             </p>
             <p className="mt-2">
               <strong>Email:</strong>{" "}
-              <a href="mailto:support@kohinooreliteliving.com" className="text-[#2a4d69] underline">
-                support@kohinooreliteliving.com
+              <a href="mailto:service@kohinoorelite.com" className="text-[#2a4d69] underline">
+                service@kohinoorelite.com
               </a>
             </p>
           </div>

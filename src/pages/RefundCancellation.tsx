@@ -82,8 +82,8 @@ const RefundPolicy = () => {
               <ul className="list-disc ml-8 space-y-4 text-gray-700">
                 <li>
                   If you receive a damaged or incorrect item, please notify us within <strong>24 hours</strong> of delivery by emailing{" "}
-                  <a href="mailto:support@kohinooreliteliving.com" className="text-[#2a4d69] underline font-medium">
-                    support@kohinooreliteliving.com
+                  <a href="mailto:service@kohinoorelite.com" className="text-[#2a4d69] underline font-medium">
+                    service@kohinoorelite.com
                   </a>, or by Calling / WhatsApp at <strong>81793 37052</strong> with photos of the damaged product.
                 </li>
                 <li>

@@ -6,7 +6,7 @@ import { Gift, Leaf, Apple, Check } from 'lucide-react';
 
 const ShopCollection = () => {
   return (
-    <section className="py-16 md:py-24 bg-gray-50">
+    <section id="shopProducts" className="py-16 md:py-24 bg-gray-50">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-14">
